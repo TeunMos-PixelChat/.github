@@ -1,6 +1,6 @@
 # PixelChat
 
-## Hi there 👋
+This github organisation contains all code and documentation for the individual project of semester 6. 
 
 <!--
 
