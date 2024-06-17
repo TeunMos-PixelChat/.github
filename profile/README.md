@@ -5,13 +5,13 @@ date: 2024-06-17
 title: Project overview PixelChat
 ---
 
-# Introduction
+# Project Overview PixelChat
 
 This document describes the project overview for the PixelChat project.
 It will describe the project, the features and the tech stack of the
 project.
 
-# Project Description
+## Project Description
 
 PixelChat is a chat application made for gamers where you can chat with
 friends, create groups, and send files (like images and videos). The
@@ -24,9 +24,9 @@ scalability. The goal is to create a chat application that is easy to
 use, secure, and scalable. The application is made with a focus on the
 quality and maintainability of the application.
 
-# Features
+## Features
 
-## Current Features
+### Current Features
 
 The current features of the application are:
 
@@ -42,7 +42,7 @@ The current features of the application are:
 
 -   A way to delete your account & all data (GDPR)
 
-## Planned Features
+### Planned Features
 
 The planned features of the application are:
 
@@ -54,7 +54,7 @@ The planned features of the application are:
 
 -   Edit profile
 
-# Tech Stack and architecture
+## Tech Stack and architecture
 
 The application uses a microservices architecture with the following
 services:
@@ -116,9 +116,9 @@ Here is a visual representation of all the services in the C4 model
 (Level 2: Container diagram):
 
 ![Container
-diagram](pixelchat c4-Container diagram.drawio.png)
+diagram](containerdiag.png)
 
-# Developing and deploying the application
+## Developing and deploying the application
 
 To start Developing on the whole application, the easiest way to start
 is to clone the [Deployment
@@ -128,7 +128,7 @@ includes the docker-compose file, the Kubernetes files, and some scripts
 to build and start the application locally in docker or in a Kubernetes
 enviroment.
 
-## Developing with docker
+### Developing with docker
 
 To run the application you need to have Docker and Docker-compose
 installed on your machine. Then you can run the following commands to
@@ -150,7 +150,7 @@ To start developing on a single service you can stop that specific
 service in the docker-compose file, go to the service directory and run
 the service outside of docker.
 
-## Deploying on Kubernetes
+### Deploying on Kubernetes
 
 If you want to start the application in a Kubernetes environment you can
 use the Kubernetes files in the deployment repository. You can use the
